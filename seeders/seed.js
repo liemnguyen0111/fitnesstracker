@@ -1,7 +1,7 @@
 let mongoose = require("mongoose");
 let db = require("../models");
 
-module.exports = mongoose.connect(process.env.MONGOD_URI, {
+module.exports = mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useFindAndModify : false,
   useUnifiedTopology : true
